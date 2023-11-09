@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Prepare') {
             steps {
-                git branch: 'master',
+                git branch: 'main',
                     url: 'https://github.com/minbo2002/deploy-study.git'
             }
 
